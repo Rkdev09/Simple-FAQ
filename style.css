@@ -1,0 +1,118 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f3f4f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Main Card */
+.author-info {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 700px;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Main Heading */
+h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+/* Sub text */
+.author-info > p:first-of-type {
+  color: #6b7280;
+  margin-bottom: 30px;
+}
+
+/* Section Headings */
+h2 {
+  font-size: 18px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+/* Paragraph */
+p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: #374151;
+}
+
+/* Ordered List */
+ol {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+ol li {
+  margin-bottom: 10px;
+}
+
+/* Unordered List */
+ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+ul li {
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+/* Strong text */
+strong {
+  font-weight: 600;
+}
+
+/* Links */
+a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Credit line */
+.author-info > a {
+  font-size: 14px;
+}
+
+/* ===================== */
+/* 📱 Responsive Section */
+/* ===================== */
+
+@media (max-width: 640px) {
+  .author-info {
+    padding: 25px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  p,
+  li {
+    font-size: 14px;
+  }
+}
